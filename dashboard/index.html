@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar: pre-token protocols ranked by implied value</title>
+<meta name="description" content="A radar for protocols that record no token yet, ranked by an implied value computed from TVL, seven-day growth, age, chain count and category.">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<!-- The board, the 7-day movers panel and the detail drawer are rendered by
+     dashboard/app.js into #board from data.js; this file is only the shell. -->
+<a class="skip" href="#board">Skip to the board</a>
+<main id="board" tabindex="-1" aria-busy="true"></main>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
